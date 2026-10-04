@@ -9,7 +9,7 @@ int main()
     cin >> a >> op >> b;
     switch(op)
     {
-        // 各运算将在对应功能分支中添加
+        case '+': cout << a << op << b << "=" << a+b << endl; break;
     }
     return 0;
 }

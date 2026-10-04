@@ -12,6 +12,11 @@ int main()
         case '+': cout << a << op << b << "=" << a+b << endl; break;
         case '-': cout << a << op << b << "=" << a-b << endl; break;
         case '*': cout << a << op << b << "=" << a*b << endl; break;
+        case '/':
+            if(b==0) cout << "除数不能为0" << endl;
+            else cout << a << op << b << "=" << 1.0*a/b << endl;
+            break;
+        default: cout << "非法运算符" << endl;
     }
     return 0;
 }

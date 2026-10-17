@@ -1,1 +1,1 @@
-double op_sub(double a, double b) { return 0; }   // TODO
+double op_sub(double a, double b) { return a - b; }
